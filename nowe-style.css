@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .container {
-    width: 100%;
+	max-width: 1500px;
+	margin: auto;
 }
 .row {
     display: flex;
@@ -43,6 +44,22 @@
     width: 8.333%;
     flex-shrink: 0;
 }
+.work-picture-container {
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+.work-picture {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
 .picture {
     width: 100%;
 }
@@ -52,3 +69,5 @@
 .footer {
     text-align: center;
 }
+
+.
