@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+	margin: 0;
+}
 .container {
 	max-width: 1500px;
 	margin: auto;
@@ -14,13 +17,20 @@
     overflow: hidden;
     height: 100px;
     display: flex;
-    position: relative;
+	justify-content: center;
+	align-items: center;
 }
 .menu-picture {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translate(0, -50%);
+    margin-left: 5%;
+}
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navigation-link {
+	margin: 0 15px;
+	text-transform: uppercase;
 }
 .col-12 {
     width: 100%;
@@ -40,6 +50,10 @@
 }
 .col-6 {
     width: 50%;
+    flex-shrink: 0;
+}
+.col-5 {
+    width: 41.66666666666667%;
     flex-shrink: 0;
 }
 .col-4 {
