@@ -8,6 +8,20 @@
 .row {
     display: flex;
 }
+.menu {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.menu-picture {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
 .col-12 {
     width: 100%;
     flex-shrink: 0;
@@ -69,5 +83,3 @@
 .footer {
     text-align: center;
 }
-
-.
