@@ -63,9 +63,10 @@ body {
     padding-right: 0;
 }
 .globe-picture {
-    display: flex;
-    width: 100%;
-    padding-left: 5px;
+    background-image: url("css/images/shape1.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .picture-bg8 { 
     background-image: url("css/images/bg8.png");
@@ -78,6 +79,23 @@ body {
     background-color: black;
     color: white;
     font-size: 20px;
+}
+.text-yummy {
+    text-align: right;
+    padding-left: 60px;
+}
+a:visited {
+    color: white;
+}
+a:link {
+    color: white;
+}
+.text-information {
+    font-weight: bold;
+    color: grey;
+    font-family: Arial;
+    line-height: 20px;
+    font-size: 30px;
 }
 .col-12 {
     width: 100%;
@@ -116,7 +134,7 @@ body {
     flex-shrink: 0;
 }
 .col-2 {
-    width: 8.333333333333334%;
+    width: 16.66666666666668%;
     flex-shrink: 0;
 }
 .col-1 {
@@ -148,4 +166,5 @@ body {
 }
 .footer {
     text-align: center;
+    border-top: 1px solid grey;
 }
